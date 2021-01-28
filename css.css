@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.logo {
+    position: relative;
+    left: 35%;
+    width: 400px;
+    border: 5px solid;
+    border-radius: 400px;
+    margin: 5px auto;
+}
+
+body {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.menu {
+    list-style: none;
+    border: 1px solid #CD0000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    margin: 20px auto;
+}
+
+nav li {
+    display: block;
+    float: left;
+}
+
+a {
+    display: flex;
+    padding: 8px;
+    background-color: #CD0000;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CD0000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: #CD0000;
+    border: 5px solid black;
+}
+
+#funcionamento {
+    width: 250px;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    color: white;
+}
+
+#formasDePagamento {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    color: white;
+}
+
+#corpoMenu {
+    width: 900px;
+    height: 1650px;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 200px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.temaki {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    right: 475px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: red;
+}
+
+.pratosFrios {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    left: 300px;
+}
+
+.pokes {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    right: 475px;
+    top: 20px;
+}
+
+.pratosQuentes {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+.entradas {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    right: 475px;
+    top: 35px;
+}
+
+.festival {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: right;
+    position: relative;
+    right: 0px;
+    left: 300px;
+    top: 35px;
+}
+
+.combinados {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: left;
+    position: relative;
+    left: 50px;
+    right: 590px;
+    top: 50px;
+}
+
+.acompanhamentos {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: left;
+    position: relative;
+    left: 125px;
+    right: 490px;
+    top: 50px;
+}
+
+.sobremesas {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: left;
+    position: relative;
+    left: 50px;
+    right: 300px;
+    top: 70px;
+}
+
+.bebidas {
+    width: 330px;
+    height: 270px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    color: red;
+    float: left;
+    background-color: white;
+    border-radius: 6px;
+    border-style: dotted;
+    float: left;
+    position: relative;
+    left: 125px;
+    right: 200px;
+    top: 70px;
+}
